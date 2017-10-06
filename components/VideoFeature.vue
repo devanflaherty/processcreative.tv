@@ -14,9 +14,17 @@
       </template>
       
       <div class="column is-half is-order-1-touch">
-        <slot name="video">
-          <img src="http://placehold.it/1600x900">
-        </slot>
+        <div class="video-player">
+          <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+            <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+              <slot name="video">
+
+                <div class="wistia_embed wistia_async_j38ihh83m5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+
+              </slot>
+            </div>
+          </div>
+        </div>
       </div>
 
       <template v-if="alignment === 'right'">

@@ -19,9 +19,8 @@
         <video-feature contentAligned="right">
           <div slot="video">
             <script src="//fast.wistia.com/embed/medias/30p0ubk7md.jsonp" async></script>
-            <div class="wistia_embed wistia_async_30p0ubk7md" style="height:auto;width:100%">&nbsp;</div>
+            <div class="wistia_embed wistia_async_30p0ubk7md seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
           </div>
-          <!-- <img src="http://placehold.it/1600x900" slot="video"> -->
           <template slot="content">
             <h3>Stephen Kenn’s  Encounter Collection</h3>
             <p>We combine creativity, design and story into impacting products, content and strategies. Wheter that something is a single video or a year long strategy.</p>
@@ -31,7 +30,7 @@
         <video-feature contentAligned="left">
           <div slot="video">
             <script src="//fast.wistia.com/embed/medias/nchyt29irv.jsonp" async></script>
-            <div class="wistia_embed wistia_async_nchyt29irv" style="height:auto;width:100%">&nbsp;</div>
+            <div class="wistia_embed wistia_async_nchyt29irv seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
           </div>
           <template slot="content">
             <h3>Don Julio</h3>
@@ -42,7 +41,7 @@
         <video-feature contentAligned="right">
           <div slot="video">
             <script src="//fast.wistia.com/embed/medias/a1ys45v4lg.jsonp" async></script>
-            <div class="wistia_embed wistia_async_a1ys45v4lg" style="height:auto;width:100%">&nbsp;</div>
+            <div class="wistia_embed wistia_async_a1ys45v4lg seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
           </div>
           <template slot="content">
             <h3>Nissan</h3>
@@ -53,7 +52,7 @@
         <video-feature contentAligned="left">
           <div slot="video">
             <script src="//fast.wistia.com/embed/medias/sa1a3lgrjf.jsonp" async></script>
-            <div class="wistia_embed wistia_async_sa1a3lgrjf" style="height:auto;width:100%">&nbsp;</div>
+            <div class="wistia_embed wistia_async_sa1a3lgrjf seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
           </div>
           <template slot="content">
             <h3>OPKIX</h3>
