@@ -25,11 +25,11 @@
     </div>
     <Modal @changeModalVis="toggleModal" :modalVisible="modal">
       <div slot="body">
-        <p>Thank you for your patience as we are currently updating our site with new work and new agency capabilities.</p>
-
-        <p>Our new site is set to launch November 1st, 2017.</p>
-
-        <p>If you aren’t able to find what you are looking for below please reach out to us at newbusiness@processcreative.co with any questions that you might have.</p>
+        <p class="is-size-2 is-size-6-mobile">Thank you for your patience as we are currently updating our site with new work and new agency capabilities.</p>
+        <br>
+        <p class="is-size-2 is-size-6-mobile"><strong>Our new site is set to launch November 1st, 2017.</strong></p>
+        <br>
+        <p class="is-size-2 is-size-6-mobile">If you aren’t able to find what you are looking for below please reach out to us at newbusiness@processcreative.co with any questions that you might have.</p>
       </div>
     </Modal>
   </nav>
@@ -106,6 +106,9 @@ export default {
 .navbar {
   background: transparent;
   padding: 3rem 0;
+  @include mobile() {
+    padding: 1rem 0;
+  }
   .navbar-brand {
     position: relative;
     z-index: 100;

@@ -5,7 +5,7 @@
         <div class="column is-11">
           <h3>In-a-nutshell</h3>
           <blockquote>
-            <p class="has-text-grey is-size-2">
+            <p class="has-text-grey is-size-2 is-size-4-mobile">
               We are an agency rooted in film production. Our in-house team of directors, designers and producers is eqquiped to serve individuals, agencies and brands with creative solutions.
             </p>
           </blockquote>
@@ -100,11 +100,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '~bulma/bulma';
 #welcome {
   height: calc(100vh - 196px);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @include mobile() {
+    height: calc(100vh - 300px);
+    margin-bottom: 4rem;
+  }
 }
 #featured {
   h2 {

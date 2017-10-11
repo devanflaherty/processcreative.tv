@@ -1,9 +1,9 @@
 <template>
 <article ref="feature">
   <transition name="slide-up">
-    <div class="columns flex">
+    <div class="columns is-centered flex">
       <template v-if="alignment === 'left'">
-        <div class="column flex-center is-order-2-touch">
+        <div class="column flex-center is-half is-order-2-touch">
           <div class="content-cell has-text-right">
             <slot name="content">
               <h3 class="has-text-right">Don Julio</h3>
@@ -28,7 +28,7 @@
       </div>
 
       <template v-if="alignment === 'right'">
-        <div class="column flex-center is-order-2-touch">
+        <div class="column flex-center is-half is-order-2-touch">
           <div class="content-cell">
             <slot name="content">
               <h3>Don Julio</h3>
@@ -72,6 +72,12 @@ export default {
 
 <style lang="scss" scoped>
 @import '~bulma/bulma';
+article {
+  @include mobile() {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+}
 .flex-center {
   display: flex;
   flex-direction: column;

@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="column is-11-touch">
-          <p class="has-text-dark is-size-6 has-text-centered-touch">&copy; 2017 ProcessCreative. All Rights Reserved.</p>
+          <p class="has-text-dark has-text-centered-touch">&copy; 2017 ProcessCreative.<br class="is-hidden-tablet"> All Rights Reserved.</p>
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@ footer {
       color: $white;
       font-size: 2rem;
       @include mobile() {
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
       &:hover {
         color: $blue;
@@ -69,9 +69,17 @@ footer {
 
 #footerBar {
   padding: 18rem 0;
+  @include mobile() {
+    padding: 9rem 0;
+  }
   .footer-logo-wrap {
     width: 40px; 
     height: 34px;
+  }
+  p {
+    @include mobile() {
+      font-size: 1rem;
+    }
   }
 }
 </style>
