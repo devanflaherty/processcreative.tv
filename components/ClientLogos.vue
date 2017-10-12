@@ -66,7 +66,7 @@ export default {
   justify-content: center;
   align-items: center;
   .logo-pad {
-    padding: 50px 0;
+    padding: 35px 0;
   }
   img {
     display: block;

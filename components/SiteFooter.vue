@@ -3,15 +3,10 @@
   <footer class="section">
     <div class="container">
       <div class="columns is-centered is-mobile is-multiline">
-        <div class="column is-half-desktop is-9-tablet is-11-mobile">
-          <h2><strong>Full Service</strong></h2>
-          <p>
-            Something about us offering a new and full service offering and a contact button.  We believe that honesty and friendships are at the heart of successful collaboration. We build long lasting relationships with our  clients and invest ourselves into each opportunity we are given. Here are some of our clients.
-          </p>
-        </div>
-        <div class="column contact-info is-half-desktop is-9-tablet is-11-mobile">
-          <a href="mailto:newbusiness@ProcessCreative.co?subject=New Business Inquiry">newbusiness@ProcessCreative.co</a>
-          <a href="tel:949-412-6944">949 412 6944</a>
+        <div id="prefooter" class="column contact-info is-half-desktop is-9-tablet is-11-mobile">
+          <h2>Please reach out with any questions you may have.</h2>
+          <a href="mailto:hello@ProcessCreative.tv?subject=New Business Inquiry">hello@processcreative.tv</a>
+          <!-- <a href="tel:949-412-6944">949 412 6944</a> -->
         </div>
       </div>
     </div>
@@ -46,6 +41,9 @@ export default {
 @import "~bulma/bulma";
 
 footer {
+  #prefooter {
+    text-align: center;
+  }
   h2 {
     margin-bottom: 2rem;
   }

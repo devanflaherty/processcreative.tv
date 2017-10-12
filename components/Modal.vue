@@ -4,7 +4,7 @@
     <div class="modal-content">
       <slot name="body"></slot>
       <br>
-      <a class="is-size-2 is-size-5-mobile close-link" href="#close" @click.prevent="closeModal">Close</a>
+      <a class="is-size-4 is-size-5-mobile close-link" href="#close" @click.prevent="closeModal">Close</a>
     </div>
     <button class="modal-close is-large" aria-label="close" @click="closeModal"></button>
   </div>

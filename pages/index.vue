@@ -23,7 +23,7 @@
           </div>
           <template slot="content">
             <h3>Stephen Kenn’s  Encounter Collection</h3>
-            <p>We combine creativity, design and story into impacting products, content and strategies. Wheter that something is a single video or a year long strategy.</p>
+            <!-- <p>We combine creativity, design and story into impacting products, content and strategies. Wheter that something is a single video or a year long strategy.</p> -->
           </template>
         </video-feature>
 
@@ -34,7 +34,7 @@
           </div>
           <template slot="content">
             <h3>Don Julio</h3>
-            <p>We combine creativity, design and story into impacting products, content and strategies. Wheter that something is a single video or a year long strategy.</p>
+            <!-- <p>We combine creativity, design and story into impacting products, content and strategies. Wheter that something is a single video or a year long strategy.</p> -->
           </template>
         </video-feature>
 
@@ -45,7 +45,7 @@
           </div>
           <template slot="content">
             <h3>Nissan</h3>
-            <p>We combine creativity, design and story into impacting products, content and strategies. Wheter that something is a single video or a year long strategy.We combine creativity, design and story into impacting products, content and strategies. Wheter that something is a single video or a year long strategy.</p>
+            <!-- <p>We combine creativity, design and story into impacting products, content and strategies. Wheter that something is a single video or a year long strategy.We combine creativity, design and story into impacting products, content and strategies. Wheter that something is a single video or a year long strategy.</p> -->
           </template>
         </video-feature>
 
@@ -56,7 +56,7 @@
           </div>
           <template slot="content">
             <h3>OPKIX</h3>
-            <p>We combine creativity, design and story into impacting products, content and strategies. Wheter that something is a single video or a year long strategy.</p>
+            <!-- <p>We combine creativity, design and story into impacting products, content and strategies. Wheter that something is a single video or a year long strategy.</p> -->
           </template>
         </video-feature>
       </section>
@@ -69,6 +69,7 @@
           <p>
             We believe that honesty and friendships are at the heart of successful collaboration. We build long lasting relationships with our clients and invest ourselves into each opportunity we are given. Here are some of our clients.
           </p>
+          <br>
         </div>
       </div>
 
