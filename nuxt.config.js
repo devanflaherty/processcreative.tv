@@ -1,3 +1,7 @@
+var url = 'http://processcreative.tv'
+var title = 'ProcessCreative'
+var desc = 'We are an agency rooted in film production. Our in-house team of directors, designers and producers is eqquiped to serve individuals, agencies and brands with creative solutions.'
+var unfurl = `${url}/unfurl.jpg`
 module.exports = {
   /*
   ** Headers of the page
@@ -7,34 +11,34 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Jesse Lusko is a speaker and evangelist.' },
-      // { name: 'theme-color', content: '#005236' },
-      // { name: 'robots', content: 'all' },
-      // { property: 'og:url', content: 'http://jesselusko.com' },
-      // { property: 'og:image', content: 'http://jesselusko.com/unfurl.png' },
-      // { property: 'og:title', content: 'JesseLusko.com' },
-      // { property: 'og:description', content: 'Jesse Lusko is a speaker and evangelist.' },
-      // { name: 'twitter:card', content: 'summary_large_image' },
-      // { name: 'twitter:domain', value: 'http://jesselusko.com' },
-      // { name: 'twitter:title', value: 'JesseLusko.com' },
-      // { name: 'twitter:description', value: 'Jesse Lusko is a speaker and evangelist.' },
-      // { name: 'twitter:image', content: 'http://jesselusko.com/unfurl.png' },
-      // { name: 'twitter:url', value: 'http://jesselusko.com' }
+      { hid: 'description', name: 'description', content: desc }
+      { name: 'theme-color', content: '#ffffff' },
+      { name: 'robots', content: 'all' },
+      { property: 'og:url', content: url },
+      { property: 'og:image', content: unfurl },
+      { property: 'og:title', content: title },
+      { property: 'og:description', content: desc },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:domain', value: url },
+      { name: 'twitter:title', value: title },
+      { name: 'twitter:description', value: desc },
+      { name: 'twitter:image', content: unfurl },
+      { name: 'twitter:url', value: url }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      // { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
-      // { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
-      // { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
-      // { rel: 'image_src', href: 'http://jesselusko.com/unfurl.png' },
-      // { rel: 'mask-icon', color: '#5bbad5', href: '/safari-pinned-tab.svg' }
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      { rel: 'image_src', href: unfurl },
+      { rel: 'mask-icon', color: '#ffffff', href: '/safari-pinned-tab.svg' },
+      { rel: 'manifest', href: '/manifest.json' }
     ],
     script: [
       {
         src: '//fast.wistia.com/assets/external/E-v1.js',
         async: true
       }
-      // { src: '//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js' },
     ]
   },
   css: [
@@ -45,14 +49,10 @@ module.exports = {
   ** Add modules
   */
   modules: [
-    '@nuxtjs/pwa',
-    // '@nuxtjs/font-awesome'
+    '@nuxtjs/pwa'
   ],
   plugins: [
     { src: `~plugins/vue-lazyload`, ssr: false },
-    { src: `~plugins/storyblok`, ssr: false },
-    { src: `~plugins/root`, ssr: false },
-    { src: `~plugins/teaser`, ssr: false },
     { src: `~plugins/vue-smooth-scroll`, ssr: false },
     { src: `~plugins/vue-scroll-reveal`, ssr: false }
   ],
