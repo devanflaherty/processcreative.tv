@@ -6,7 +6,7 @@
           <h3>In-a-nutshell</h3>
           <blockquote>
             <p class="has-text-grey is-size-2 is-size-4-mobile">
-              We are an agency rooted in film production. Our in-house team of directors, designers and producers is eqquiped to serve individuals, agencies and brands with creative solutions.
+              We are an agency rooted in film production. Our in-house team of directors, designers and producers is equipped to serve individuals, agencies and brands with creative solutions.
             </p>
           </blockquote>
         </div>
