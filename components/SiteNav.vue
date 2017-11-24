@@ -44,7 +44,7 @@
         <br>
         <p class="is-size-4 is-size-6-mobile"><strong>Our new site is set to launch November 1st, 2017.</strong></p>
         <br>
-        <p class="is-size-4 is-size-6-mobile">If you aren’t able to find what you are looking for below please reach out to us at newbusiness@processcreative.co with any questions that you might have.</p>
+        <p class="is-size-4 is-size-6-mobile">If you aren’t able to find what you are looking for below please reach out to us at hello@processcreative.tv with any questions that you might have.</p>
       </div>
     </Modal>
   </nav>
